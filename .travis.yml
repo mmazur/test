@@ -1,0 +1,16 @@
+dist: xenial
+language: shell
+
+env:
+  global:
+    - GLOBAL1=global1
+    - GLOBAL2=global2
+
+script:
+  - echo $GLOBAL1
+  - echo $GLOBAL2
+  - export LOCAL1=local1
+  - echo $LOCAL1
+  - export GLOBAL2=nolonger
+  - echo $GLOBAL2
+
