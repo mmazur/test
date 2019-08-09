@@ -3,7 +3,7 @@ language: shell
 
 env:
   global:
-    - GLOBAL1=global1
+    - GLOBAL1=$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)
     - GLOBAL2=global2
 
 script:
