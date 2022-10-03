@@ -1,7 +1,7 @@
 asdf
 
-> **Note**
-> Line 1
+> **Note**  
+> Line 1  
 > Line 2
 
 
